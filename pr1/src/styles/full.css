@@ -1,0 +1,28 @@
+.follContant{
+    width: 100%;	
+    height: auto; 
+}
+.content{
+    margin-top: 15%;
+}
+.Number{
+    text-align: center;
+    margin: auto;
+}
+.textArea{
+    resize: none;
+    overflow: auto;
+    outline: lightblue;
+    border-color: lightgrey;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    width: 100%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;}
