@@ -2,9 +2,8 @@
     width: 100%;	
     height: auto; 
 }
-.content{
-    margin-top: 15%;
-}
+
+
 .Number{
     text-align: center;
     margin: auto;
@@ -24,5 +23,21 @@
 a{
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;}
+
+
+#idp .content{
+    margin-top: 15%;}
+
+
+    @media (min-aspect-ratio: 16/9) {
+    #idp .content{
+        margin-top: 200%;
+    }
+}
+    @media (min-aspect-ratio: 16/9) {
+        #idp .content{
+        margin-top: 200%;
+    }
+}
+
+
