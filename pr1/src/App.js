@@ -1,14 +1,20 @@
+import React from 'react'
 import './styles/App.css';
 import Full from './components/Full';
-import Video from './assets/5SecondsIntro.mp4'
+import Video from './assets/1.mp4';
 
 function App() {
+ 
+
+
   return (
     <div className="App">
       <video autoPlay loop muted
+      className='z bgz'
+      id='myvid'
       style={{
         position: 'absolute',
-        width: '-100%',
+        width: '-1000%',
         top:'0%',
         margin:'auto',
         bottom:'0%',
@@ -21,7 +27,7 @@ function App() {
       className='video'>
         <source src={Video} type='video/mp4' />
       </video>
-      <Full />
+      <Full id="bar" />
     </div>
   );
 }
